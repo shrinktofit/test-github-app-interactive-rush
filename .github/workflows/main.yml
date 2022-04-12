@@ -22,6 +22,14 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Print crutial environment variables
+      - name: Print crutial environment variables
+        shell: pwsh
+        run: |
+          Write-Host "GITHUB_RUN_ID: $($env:GITHUB_RUN_ID)"
+          Write-Host "GITHUB_EVENT_NAME: $($env:GITHUB_EVENT_NAME)"
+          Write-Host "GITHUB_EVENT_PATH: $($env:GITHUB_EVENT_PATH)"
+          
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: shrinktofit/github-app-interactive-rush@master
         env:
