@@ -398,11 +398,13 @@
   "projects": [
     {
       "packageName": "@cocos/eslint-config-base",
-      "projectFolder": "./packages/base"
+      "projectFolder": "./packages/base",
+      "shouldPublish": true
     },
     {
       "packageName": "@cocos/eslint-config-editor",
-      "projectFolder": "./packages/editor"
+      "projectFolder": "./packages/editor",
+      "shouldPublish": true
     }
   ]
 }
