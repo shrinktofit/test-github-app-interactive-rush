@@ -1,0 +1,11 @@
+{
+  "name": "@cocos/eslint-config-editor",
+  "version": "1.0.0",
+  "description": "eslint config shared among Cocos projects.",
+  "main": "index.js",
+  "author": "Cocos",
+  "license": "MIT",
+  "dependencies": {
+    "@cocos/eslint-config-base": "~1.0.0"
+  }
+}

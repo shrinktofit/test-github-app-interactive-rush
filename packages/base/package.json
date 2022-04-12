@@ -1,0 +1,12 @@
+{
+  "name": "@cocos/eslint-config-base",
+  "version": "1.0.0",
+  "description": "eslint config shared among Cocos projects.",
+  "main": "index.js",
+  "author": "Cocos",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "~5.19.0",
+    "@typescript-eslint/parser": "~5.19.0"
+  }
+}
